@@ -72,7 +72,7 @@
             <h2>What Landfill Does To Our Land</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae architecto tenetur libero voluptatem est odio esse aliquam! Facilis odit optio assumenda, ratione ut libero ducimus, enim voluptatum non debitis, velit.</p>            
-            <a class="btn btn-danger btn-lg mt-2" href="#" role="button">Learn More</a>
+            <button type="button" class="btn btn-danger btn-lg mt-2" data-toggle="modal" data-target="#landfillButton">Learn More</button>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam obcaecati recusandae iusto eaque dicta quia error sit impedit temporibus necessitatibus aliquam, at vero esse nostrum animi facilis ea quo delectus.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dicta veritatis obcaecati animi voluptatem veniam voluptates, assumenda quia possimus eveniet, id iusto dolore eaque illo quidem, nesciunt vitae non esse.</p>
-             <a class="btn btn-danger btn-lg mt-2" href="#" role="button">Learn More</a>
+             <button type="button" class="btn btn-danger btn-lg mt-2" data-toggle="modal" data-target="#waterButton">Learn More</button>
           </div>
       </div>
     </section>
@@ -112,7 +112,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                      <a class="btn btn-danger btn-lg mt-2" href="#" role="button">Learn More</a></small></p>
+                      <button type="button" class="btn btn-danger btn-lg mt-2" data-toggle="modal" data-target="#coalButton">Learn More</button>
                   </div>
                 </div>
                 <div class="card">
@@ -123,7 +123,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger btn-lg mt-2" href="#" role="button">Learn More</a></small></p>
+                    <button type="button" class="btn btn-danger btn-lg mt-2" data-toggle="modal" data-target="#airButton">Learn More</button>
                   </div>
                 </div>
                 <div class="card">
@@ -134,7 +134,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger btn-lg mt-2" href="#" role="button">Learn More</a></small></p>
+                    <button type="button" class="btn btn-danger btn-lg mt-2" data-toggle="modal" data-target="#oilButton">Learn More</button>
                   </div>
                 </div>
               </div>
@@ -204,8 +204,158 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Modal Info -->
+
+      <!-- Modal One -->
+      <div class="modal fade" id="landfillButton" tabindex="-1" role="dialog" aria-labelledby="landfill form" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Of Modal One -->
+
+        <!-- Modal Two -->
+        <div class="modal fade" id="waterButton" tabindex="-1" role="dialog" aria-labelledby="water form" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Of Modal Two -->
+
+        <!-- Modal Three -->
+        <div class="modal fade" id="coalButton" tabindex="-1" role="dialog" aria-labelledby="coal form" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Of Modal Three -->
+
+        <!-- Modal Four -->
+        <div class="modal fade" id="airButton" tabindex="-1" role="dialog" aria-labelledby="air form" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Of Modal Four -->
+
+      <!-- Modal Five -->
+      <div class="modal fade" id="oilButton" tabindex="-1" role="dialog" aria-labelledby="oil form" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <!-- End Of Modal Five -->
+
+    <!-- End Of Modal -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
   </body>
 </html>
