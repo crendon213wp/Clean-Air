@@ -33,7 +33,8 @@ p {
 
 #landfill,
 #pollution,
-#whatElse {
+#whatElse
+#media {
 	padding: 5rem 0;
 }
 
@@ -46,8 +47,9 @@ p {
   background-position: center center;
 }
 
-#heroTwo .btn-danger:hover,
-.heroThree .btn-danger:hover {
+#landfill .btn-danger:hover,
+#pollution .btn-danger:hover,
+#whatElse .btn-danger:hover {
 	background-color: #28a745;
 	color: #fff;
 	border-color: #28a745;
@@ -64,6 +66,14 @@ p {
 	padding: 1.875em;
 }
 
+#media .videoRowOne {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#media .videoRowTwo {
+	margin-bottom: 3rem;
+}
 
 /*  Footer
 ------------------------------*/
