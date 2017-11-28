@@ -1,0 +1,75 @@
+/*  GLOBAL
+------------------------------*/
+
+p {
+	font-size: 1rem;
+}
+
+/*  Main Image
+------------------------------*/
+
+#intro {
+	background-image: url('../imaginibus/solar-panel1.jpg');
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+	align-items: center;
+	display: flex;
+	text-align: center !important;
+}
+
+/*  Navigation
+------------------------------*/
+
+.navbar-brand {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*  Middle Section
+------------------------------*/
+
+#landfill,
+#pollution,
+#whatElse {
+	padding: 5rem 0;
+}
+
+.imageOne {
+	background-image: url('../imaginibus/landfill1.jpg');
+  background-color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 50vh;
+  background-position: center center;
+}
+
+#heroTwo .btn-danger:hover,
+.heroThree .btn-danger:hover {
+	background-color: #28a745;
+	color: #fff;
+	border-color: #28a745;
+}
+
+.heroThree {
+	background: url('http://theimminentdomain.com/wp-content/uploads/2013/09/0308_WVenvirophotos1-water-pollutions.jpg') top center no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.heroThree .content {
+	background: rgba(0,0,0,.8);
+	padding: 1.875em;
+}
+
+
+/*  Footer
+------------------------------*/
+
+#footer {
+	background-color: #000;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
